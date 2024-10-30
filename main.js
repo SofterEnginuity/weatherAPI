@@ -19,25 +19,25 @@ fetch(`http://api.weatherapi.com/v1/current.json?key=a15ee75a3d2c4ef5bf717405024
          if(temp < 40){
   console.log("You should just stay home, it's an icebox out there!!")
   document.querySelector('p').innerText = "You should just stay home, it's an icebox out there!!"
-  document.querySelector('body').style.backgroundColor = 'rgb(92, 93, 245)'
+  document.querySelector('body').style.backgroundImage = "url('https://i.imgur.com/5vcDCYa.jpeg')";
 }else if(temp < 60){
   console.log("You're probably going to need a jacket if you go out")
   document.querySelector('p').innerText = "You're probably going to need a jacket if you go out"
-    document.querySelector('body').style.backgroundColor = 'rgb(113, 163, 193)'
+  document.querySelector('body').style.backgroundImage = "url('https://i.imgur.com/lKbisQ1.jpeg')";
 }
 else if(temp < 70){
   console.log("Get out the house, it's getting nice out!")
   document.querySelector('p').innerText = "Get out the house, it's getting nice out!"
-    document.querySelector('body').style.backgroundColor = 'rgb(92, 245, 196)'
+  document.querySelector('body').style.backgroundImage = "url('https://i.imgur.com/9p6rdlz.jpeg')";
 }else if(temp < 80){
-  console.log( "It's summa summa summa tiiiiime!")
-  document.querySelector('p').innerText = "It's summa summa summa tiiiiime!"
-    document.querySelector('body').style.backgroundColor = 'rgb(245, 172, 92)'
+  console.log( "Soak up some sun!!")
+  document.querySelector('p').innerText = "Soak up some sun!!"
+  document.querySelector('body').style.backgroundImage = "url('https://i.imgur.com/9p6rdlz.jpeg')";
 }else{
-  console.log("Go to the beach, it's too hot!")
-  document.querySelector('p').innerText = "Go to the beach, it's too hot!"
-  document.querySelector('body').style.backgroundColor = 'rgb(245, 128, 92)'
-  // document.querySelector('body').style.color = 'white'
+  console.log("It's summa summa summa tiiiiime!")
+  document.querySelector('p').innerText = "It's summa summa summa tiiiiime!"
+  document.querySelector('body').style.backgroundImage = "url('https://i.imgur.com/WTHcHzN.jpeg')";
+  
 } 
        
       }
