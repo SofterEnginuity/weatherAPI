@@ -1,7 +1,7 @@
 Weather API
 Enter your city and the computer will tell you how to dress for the day based on your current temperature!
 
-**Link to project:** 
+**Link to project:** https://wearweather.netlify.app/
 
 ![alt tag](https://i.imgur.com/RoBsLrk.png)
 
