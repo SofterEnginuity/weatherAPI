@@ -17,12 +17,18 @@
     align-items: center;
     text-align:center;
     margin-top:15em;
-    background-image:url('img/pexels-brett-sayles-1431822.jpg');
+    background-image:url('img/cloudy.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    
   }
-
-  
+p{
+  font-weight:bold;
+  font-size:30px;
+}
+  h3{
+    font-size: 45px;
+  }
   /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/

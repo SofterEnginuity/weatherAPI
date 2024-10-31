@@ -21,16 +21,16 @@ fetch(`http://api.weatherapi.com/v1/current.json?key=a15ee75a3d2c4ef5bf717405024
   document.querySelector('p').innerText = "You should just stay home, it's an icebox out there!!"
   document.querySelector('body').style.backgroundImage = "url('https://i.imgur.com/5vcDCYa.jpeg')";
 }else if(temp < 60){
-  console.log("You're probably going to need a jacket if you go out")
-  document.querySelector('p').innerText = "You're probably going to need a jacket if you go out"
-  document.querySelector('body').style.backgroundImage = "url('https://i.imgur.com/lKbisQ1.jpeg')";
+  console.log("You should bundle up. for sure")
+  document.querySelector('p').innerText = "You should bundle up. for sure"
+  document.querySelector('body').style.backgroundImage = "url('https://i.imgur.com/ZhwWk3U.jpeg')";
 }
 else if(temp < 70){
-  console.log("Get out the house, it's getting nice out!")
-  document.querySelector('p').innerText = "Get out the house, it's getting nice out!"
+  console.log("You'll probably need a jacket if you go out")
+  document.querySelector('p').innerText = "You'll probably need a jacket if you go out "
   document.querySelector('body').style.backgroundImage = "url('https://i.imgur.com/9p6rdlz.jpeg')";
 }else if(temp < 80){
-  console.log( "Soak up some sun!!")
+  console.log( "Soak up some sun, perfect midrange temp!")
   document.querySelector('p').innerText = "Soak up some sun!!"
   document.querySelector('body').style.backgroundImage = "url('https://i.imgur.com/9p6rdlz.jpeg')";
 }else{
