@@ -7,7 +7,7 @@ function getLocation(){
 // const url = `http://api.openweathermap.org/geo/1.0/direct?q=Philadelphia,Pennsylvania,+1&limit=1&appid=cf5630e57562c1ce6f6fe23034748471`
 // const url2= `https://api.openweathermap.org/data/2.5/weather?lat=${data[0].lat}&lon=${data[0].lon}&appid=cf5630e57562c1ce6f6fe23034748471`      
 
-fetch(`http://api.weatherapi.com/v1/current.json?key=a15ee75a3d2c4ef5bf7174050241710&q=${userInput}&aqi=no`)
+fetch(`https://api.weatherapi.com/v1/current.json?key=a15ee75a3d2c4ef5bf7174050241710&q=${userInput}&aqi=no`)
     .then(res => res.json())
     .then(data =>{
         console.log(data)
