@@ -3,8 +3,8 @@ Enter your city and the computer will tell you how to dress for the day based on
 
 **Link to project:** https://wearweather.netlify.app/
 
-![alt tag](https://i.imgur.com/RoBsLrk.png)
 
+<img src="https://i.imgur.com/RoBsLrk.png" width=40% height=40%>
 
 **Tech used:** HTML, CSS & Javascript?
 
